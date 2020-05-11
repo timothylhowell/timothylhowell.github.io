@@ -1,0 +1,110 @@
+@font-face {
+	font-family: Voltaire;
+	src: url('../fonts/Voltaire-Regular.otf') format('opentype');
+}
+
+body {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+aside#aboutSection {
+  background-color: #cfe5ec;
+  float: left;
+  text-align: center;
+  border-radius: 15%;
+}
+
+main div#mainSection {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #cfe5ec;
+    border-radius: 15%;
+    width: 70%;
+    margin-bottom: 80px;
+  }
+
+  
+  
+  main div#mainSection h1 {
+    font-size: 2em;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  
+  main div#mainSection h2 {
+    text-align: center;
+  }
+  main div#mainSection h3 {
+    text-align: center;
+  }
+  main div#mainSection h4 {
+    text-align: center;
+  }
+  
+  main div#mainSection p {
+    margin-left: 15%;
+    margin-right: auto;
+    text-align: justify;
+  }
+
+  main div#mainSection li {
+    text-align: center;
+    list-style: none;
+  }
+
+  footer {
+    position: relative;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    background-color: #D85431;
+    text-align: center;
+    
+  }
+
+/*=====================================
+  Mobile Styles: 0px to 480px
+  =====================================
+*/
+@media only screen and (max-width: 480px) {
+    body {
+      background-image: none;
+      background-color: #D2E4C4;
+    }
+    div.navigation {
+      font-size: 1.5em;
+    }
+    div.navigation img {
+      display: none;
+    }
+    div.navigation a {
+      font-size: 0.7em;
+    }
+    div#mainSection {
+      width: 100%;
+    }
+    div#mainSection p {
+      text-align: left;
+      font-size: 10pt;
+    }
+    
+  }
+
+  /*=====================================
+  Tablet Styles: 481px to 768px
+  =====================================
+*/
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    div.navigation {
+      font-size: 2em;
+    }
+    div.navigation p {
+      width: 100%;
+    }
+    div#mainSection p {
+      width: 65%;
+      margin-left: 5%;
+    }
+  }
