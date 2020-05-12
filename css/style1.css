@@ -76,7 +76,7 @@ main div#mainSection {
     div.navigation {
       font-size: 1.5em;
     }
-    div.navigation img {
+    aside img {
       display: none;
     }
     div.navigation a {
